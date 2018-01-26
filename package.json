@@ -1,0 +1,23 @@
+{
+  "name": "express-ts-template",
+  "version": "1.0.0",
+  "description": "Template Node API with Express and TypeScript",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "npm run serve",
+    "build": "npm run build-ts",
+    "serve": "node dist/server.js",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w"
+  },
+  "author": "Amin Abbaspour",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.11.0",
+    "@types/node": "^9.3.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
